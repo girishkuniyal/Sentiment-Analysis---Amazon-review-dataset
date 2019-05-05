@@ -54,7 +54,6 @@ studies,studing => study
 
 Note : Stemming is fast as compare to Lemmatization but if you are working with language modeling then lemmatization is preferred.
 * *Performance of Bag of Words with Lemmatization is* :
-
 ### Bag of Words with n-grams
 Natual language have sequencial information which is critcal to make any NLP based decision. like meaning of word *Bank* changes with its surrounding word. like
 1. *Bank* is generally close on Sunday.
@@ -81,8 +80,8 @@ Term frequency–inverse document frequency is a numerical statistic that is int
 
 *Inverse document frequency* : Inverse of frequency of word appear in corpus.
 
-    TFIDF = TF * log(IDF)
-
+W<sub>i,j</sub> = TF<sub>i,j</sub> * log( N/df<sub>i</sub>)
+ 
 * *Performance of TFIDF is* :
 
 ### Average Word2Vec
