@@ -1,6 +1,7 @@
 
 # Recurrent Neural Network with Word2Vec
-
+## Architecture
+![RNN](../resources/RNN1.jpg)
 
 ```
 import pandas as pd 
