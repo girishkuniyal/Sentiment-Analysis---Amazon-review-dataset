@@ -3,6 +3,17 @@
 
 
 In this repository. we work with Natural Language Processing (NLP) and we try to build a State of the  art Sentiment Analyzer for Reviews using Amazon Fine Food Reviews dataset. we try different machine learning approch to solve our problem.
+### Dependencies
+- pandas
+- numpy
+- sklearn
+- matplotlib
+- seaborn
+- tensorflow
+- pytorch
+- nltk
+- spacy
+
 ### Dataset
 Our Target Machine learning problem is to create sentiment analyzer for reviews. so we need to prepare our dataset for problem. After getting data from source, It is looks like 
 
