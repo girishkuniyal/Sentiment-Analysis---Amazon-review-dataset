@@ -86,6 +86,19 @@ Term frequency–inverse document frequency is a numerical statistic that is int
 * *Performance of TFIDF is* :
 
 ### Average Word2Vec
+As name suggest, In Word2vec we represent word in the form of vector using embeddings. Word2vec takes as its input a large corpus of text and produces a vector space, typically of several hundred dimensions. To represent a document as Vector we average all Word2vec of given review.
+
+**Example  Representation** : "this is remote"
+
+|  | |   |  |  |
+|---------|-----|------|-----|------|
+| this | 0.2 |  0.3 | 0.6 | 0.04 |
+| is | 0.5 | 0.1 | 0.2 | 0.16 |
+| remote | 0.5 | 0.2 | 0.1 | 0.01 |
+| **Avg W2V** | 0.4 | 0.2 | 0.3 | 0.07 |
+
+
+
 
 * *Performance of Average Word2Vec* :
 
