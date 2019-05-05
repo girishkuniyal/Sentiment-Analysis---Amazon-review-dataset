@@ -103,5 +103,9 @@ As name suggest, In Word2vec we represent word in the form of vector using embed
 * *Performance of Average Word2Vec* :
 
 ### Recurrent Neural Network with Word2Vec
+Recurrent Neural Network is deep learning approch known for its sequence information capturing properties. Here we use Word2vec with many to one RNN architecture. 
+
+![RNN architecture](resources/RNN1.jpg)
+
 * *Performance of RNN with Word2Vec* :
 
